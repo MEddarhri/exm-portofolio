@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.active>span:nth-child(1) {
+    transform: rotateZ(-48deg) translateY(-0px);
+}
+
+.active>span:nth-child(2) {
+    opacity: 0;
+}
+
+.active>span:nth-child(3) {
+    transform: rotateZ(48deg) translateY(0px);
+}
