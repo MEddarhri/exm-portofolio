@@ -39,11 +39,11 @@ function Sidebar({ showSide, setShowSide, btnSide }) {
         </li>
         <li className=' pl-3 text-[1rem] font-semibold text-[#111827]'>
           <a className='target' href='#blog'>
-            Blog ->
+            {` Blog ->`}
           </a>
         </li>
         <li className=' pl-3 text-[1rem] font-semibold text-[#111827]'>
-          <a href='#'>
+          <a href={`#`}>
             <BsTwitter className='text-[#9ca3af] text-[1.25rem]' />
           </a>
         </li>
