@@ -54,7 +54,7 @@ function Navbar() {
         </li>
         <li className='text-[.87rem] font-semibold text-[#111827]'>
           <a href='#blog' className='hover:text-[#6b7280] transition'>
-            Blog ->
+            {`Blog ->`}
           </a>
         </li>
         <li>
