@@ -25,7 +25,7 @@ function Navbar() {
     >
       <div className='twitterProfile mr-auto'>
         <a
-          href='/'
+          href={`/`}
           className='font-semibold text-[.87rem] text-[#374151] hover:text-[#6b7280] transition'
         >
           @MEddarhri
