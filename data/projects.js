@@ -7,7 +7,7 @@ export const projectsData = [
   {
     name: 'Todo App With Full Authentication',
     url: 'https://train-exm.vercel.app',
-    src: '/images/todo-app-with-full-authentication.png',
+    src: '/images/todo-app.png',
   },
   {
     name: 'Next JS',
