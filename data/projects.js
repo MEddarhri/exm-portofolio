@@ -2,7 +2,7 @@ export const projectsData = [
   {
     name: 'Train Schedules And Pricing',
     url: 'https://train-exm.vercel.app',
-    src: '/images/train-schedules.png',
+    src: '/images/train-schedules-and-pricing.png',
   },
   {
     name: 'Todo App With Full Authentication',
