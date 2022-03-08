@@ -6,12 +6,12 @@ export const projectsData = [
   },
   {
     name: 'Todo App With Full Authentication',
-    url: 'https://train-exm.vercel.app',
+    url: 'https://exm-todo.vercel.app',
     src: '/images/todo-app.png',
   },
   {
-    name: 'Next JS',
-    url: 'https://nextjs.org',
-    src: '/images/next-js.jpg',
+    name: 'ExM Blog',
+    url: 'https://exm-blog.vercel.app',
+    src: '/images/exm-blog.png',
   },
 ];
