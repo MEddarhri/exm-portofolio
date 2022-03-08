@@ -5,7 +5,7 @@ function Layout({ children }) {
   return (
     <div>
       <Head>
-        <title>ExM Blog</title>
+        <title>ExM Portofolio</title>
         <link rel='icon' href={'/images/exm-logo.svg'} />
       </Head>
       {children}
