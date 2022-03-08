@@ -14,4 +14,9 @@ export const toolsData = [
     url: 'https://nextjs.org',
     src: '/images/next-js.jpg',
   },
+  {
+    name: 'Strapi CMS',
+    url: 'https://strapi.io',
+    src: '/images/strapi-cover.png',
+  },
 ];

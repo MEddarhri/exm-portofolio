@@ -21,3 +21,11 @@
 .active>span:nth-child(3) {
     transform: rotateZ(48deg) translateY(0px);
 }
+
+a {
+    user-select: none;
+}
+
+button {
+    -webkit-tap-highlight-color: transparent;
+}

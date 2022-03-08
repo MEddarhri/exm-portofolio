@@ -1,13 +1,13 @@
 export const projectsData = [
   {
-    name: 'Figma',
-    url: 'https://figma.com',
-    src: '/images/figma-image.png',
+    name: 'Train Schedules And Pricing',
+    url: 'https://train-exm.vercel.app',
+    src: '/images/train-schedules.png',
   },
   {
-    name: 'Tailwind CSS',
-    url: 'https://tailwindcss.com',
-    src: '/images/tailwind-css.jpg',
+    name: 'Todo App With Full Authentication',
+    url: 'https://train-exm.vercel.app',
+    src: '/images/todo-app-with-full-authentication.png',
   },
   {
     name: 'Next JS',

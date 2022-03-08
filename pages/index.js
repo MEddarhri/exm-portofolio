@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <div
         id='about'
-        className='px-[15px] sm:px-[30px] lg:px-0 pb-[50px] lg:max-w-[920px] lg:mx-auto'
+        className='px-[15px] sm:px-[30px] lg:px-0 pt-[80px] lg:max-w-[920px] lg:mx-auto'
       >
         <h1 className='text-[1.8rem] sm:text-[2.25rem] mb-[25px] text-[#111827] font-extrabold'>
           About me
@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       <div
         id='tools'
-        className='px-[15px] sm:px-[30px] lg:px-0 pb-[50px] lg:max-w-[920px] lg:mx-auto'
+        className='px-[15px] sm:px-[30px] lg:px-0 pt-[50px] lg:max-w-[920px] lg:mx-auto'
       >
         <h1 className='text-[1.8rem] text-center sm:text-[2.25rem] mb-[25px] text-[#111827] font-extrabold md:text-left'>
           Tools I use
@@ -52,7 +52,7 @@ export default function Home() {
       </div>
       <div
         id='projects'
-        className='px-[15px] sm:px-[30px] lg:px-0 pb-[200px] lg:max-w-[920px] lg:mx-auto'
+        className='px-[15px] sm:px-[30px] lg:px-0 pt-[50px] lg:max-w-[920px] lg:mx-auto'
       >
         <h1 className='text-[1.8rem] text-center sm:text-[2.25rem] mb-[25px] text-[#111827] font-extrabold md:text-left'>
           Projects
@@ -70,7 +70,7 @@ export default function Home() {
       </div>
       <div
         id='contactme'
-        className='px-[15px] sm:px-[30px] lg:px-0 pb-[100px] lg:max-w-[920px] lg:mx-auto'
+        className='px-[15px] sm:px-[30px] lg:px-0 py-[100px] lg:max-w-[920px] lg:mx-auto'
       >
         <h1 className='text-[1.8rem] text-center sm:text-[2.25rem] mb-[25px] text-[#111827] font-extrabold md:text-left'>
           Contact me
@@ -80,9 +80,12 @@ export default function Home() {
           is always open. Whether you have a question or just want to say hi,
           I’ll try my best to get back to you!
         </p>
-        <button className='bg-[#111827] block w-full sm:w-auto sm:px-[24px] sm:mx-auto md:mx-0 text-[.87rem] rounded-[.5rem] font-semibold text-center text-white py-[18px] hover:bg-[#374151] '>
+        <a
+          href={'mailTo:mokhtareddarhri@gmail.com'}
+          className='bg-[#111827] block w-full sm:w-fit sm:px-[24px] sm:mx-auto md:mx-0 text-[.87rem] rounded-[.5rem] font-semibold text-center text-white py-[18px] hover:bg-[#374151] '
+        >
           Hit me an email
-        </button>
+        </a>
       </div>
     </div>
   );

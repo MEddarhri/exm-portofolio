@@ -18,9 +18,15 @@ function Navbar() {
     }
   }
 
+  function handleOverlay() {
+    btnSide.current.classList.remove('active');
+    document.body.classList.remove('overflow-hidden');
+    setShowSide(false);
+  }
+
   return (
     <nav
-      className='relative flex items-center py-[20px] px-[20px]
+      className='relative flex items-center  pl-[20px]
     lg:py-[30px] lg:px-[35px]'
     >
       <div className='twitterProfile mr-auto'>
@@ -53,18 +59,22 @@ function Navbar() {
           </a>
         </li>
         <li className='text-[.87rem] font-semibold text-[#111827]'>
-          <a href='#blog' className='hover:text-[#6b7280] transition'>
+          <a
+            href={'https://exm-blog.vercel.app'}
+            target={'_blank'}
+            className='hover:text-[#6b7280] transition'
+          >
             {`Blog ->`}
           </a>
         </li>
         <li>
-          <a href='#'>
+          <a href={'https://twitter.com/MokhtarExM'} target={'_blank'}>
             <BsTwitter className='text-[#9ca3af] text-[1.25rem] hover:text-[#6b7280] transition' />
           </a>
         </li>
       </ul>
       <button
-        className='bg-transparent z-20 showSide lg:hidden'
+        className='bg-transparent p-[20px]  z-20 showSide lg:hidden'
         onClick={handleShowSideBar}
         ref={btnSide}
       >
@@ -78,7 +88,10 @@ function Navbar() {
         btnSide={btnSide}
       />
       {showSide && (
-        <div className='overlay  backdrop-blur-[4px] bg-[#0002] w-full h-[150vh] absolute top-0 right-0 left-0'></div>
+        <div
+          className='overlay  backdrop-blur-[4px] bg-[#0002] w-full h-[150vh] absolute top-0 right-0 left-0'
+          onClick={handleOverlay}
+        ></div>
       )}
     </nav>
   );
