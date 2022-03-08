@@ -62,13 +62,18 @@ function Navbar() {
           <a
             href={'https://exm-blog.vercel.app'}
             target={'_blank'}
+            rel='noreferrer'
             className='hover:text-[#6b7280] transition'
           >
             {`Blog ->`}
           </a>
         </li>
         <li>
-          <a href={'https://twitter.com/MokhtarExM'} target={'_blank'}>
+          <a
+            href={'https://twitter.com/MokhtarExM'}
+            target={'_blank'}
+            rel='noreferrer'
+          >
             <BsTwitter className='text-[#9ca3af] text-[1.25rem] hover:text-[#6b7280] transition' />
           </a>
         </li>

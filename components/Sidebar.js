@@ -39,12 +39,20 @@ function Sidebar({ showSide, setShowSide, btnSide }) {
           <a href='#contactme'>Contact me</a>
         </li>
         <li className=' pl-3 text-[1rem] font-semibold text-[#111827]'>
-          <a href={'https://exm-blog.vercel.app'} target={'_blank'}>
+          <a
+            href={'https://exm-blog.vercel.app'}
+            target={'_blank'}
+            rel='noreferrer'
+          >
             {` Blog ->`}
           </a>
         </li>
         <li className=' pl-3 text-[1rem] font-semibold text-[#111827]'>
-          <a href={'https://twitter.com/MokhtarExM'} target={'_blank'}>
+          <a
+            href={'https://twitter.com/MokhtarExM'}
+            target={'_blank'}
+            rel='noreferrer'
+          >
             <BsTwitter className='text-[#9ca3af] text-[1.25rem] pointer-events-none' />
           </a>
         </li>

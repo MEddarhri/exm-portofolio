@@ -6,6 +6,7 @@ function ToolCard({ name, src, url }) {
       href={url}
       className='hover:bg-gray-100 border overflow-hidden border-[#e5e7eb] rounded-[15px]'
       target={'_blank'}
+      rel='noreferrer'
     >
       <div className='grid grid-rows-[180px_auto] sm:grid-rows-[200px] md:grid-rows-[230px_auto]  '>
         <div className='image overflow-hidden'>

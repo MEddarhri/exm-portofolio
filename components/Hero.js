@@ -12,6 +12,7 @@ function Hero() {
       <a
         href={'https://exm-blog.vercel.app'}
         target={'_blank'}
+        rel='noreferrer'
         className='bg-[#111827] text-center block text-[.87rem] rounded-[.5rem] font-semibold text-white py-[18px] sm:px-[24px] sm:justify-self-center hover:bg-[#374151]'
       >
         {`Check out my blog ->`}
