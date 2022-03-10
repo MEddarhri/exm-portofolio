@@ -5,6 +5,11 @@ export const projectsData = [
     src: '/images/train-schedules-and-pricing.png',
   },
   {
+    name: 'ExM Find Similar Songs (development)',
+    url: 'https://exm-songs.vercel.app',
+    src: '/images/exm-song.png',
+  },
+  {
     name: 'Todo App With Full Authentication',
     url: 'https://exm-todo.vercel.app',
     src: '/images/todo-app.png',
