@@ -19,36 +19,17 @@ export default function Home() {
         </h1>
         <p className='text-[#4b5563] mb-[25px] text-[1.125rem] leading-[1.75rem]'>
           Hi there! My name is Mokhtar. You can call me a designer, developer,
-          or creator. My interest in web development started back in 2020, when
-          I started learning HTML, CSS and Javascript. In late 2020, I
-          discovered Javascript , and was amazed! javascript completely changed
-          the way I looked at websites forever.I can do whatever i want and
-          interact with the user just from the browser.
+          or creator. Passionate front-end web developer with 2 years of
+          experience using HTML, CSS, SASS, Javascript, React, Next JS, Strapi
+          CMS, MongoDB to build all aspects of the user experience and user
+          interface for client-facing landing pages.
         </p>
-        <p className='text-[#4b5563] text-[1.125rem] leading-[1.75rem]'>
+        {/* <p className='text-[#4b5563] text-[1.125rem] leading-[1.75rem]'>
           Today, I run Nothing, a community all about building websites, mostly
           from a frontend perspective. I also co-founded the Nothing Blog , a
           blog about Nothing (Science, tech, engineering, and math). I am
           planning to launch more projects soon.
-        </p>
-      </div>
-      <div
-        id='tools'
-        className='px-[15px] sm:px-[30px] lg:px-0 pt-[50px] lg:max-w-[920px] lg:mx-auto'
-      >
-        <h1 className='text-[1.8rem] text-center sm:text-[2.25rem] mb-[25px] text-[#111827] font-extrabold md:text-left'>
-          Tools I use
-        </h1>
-        <div className='grid gap-5 grid-cols-[300px] sm:grid-cols-[350px] md:grid-cols-[400px] justify-center lg:grid-cols-2'>
-          {toolsData.map((item, index) => (
-            <ToolCard
-              key={index}
-              name={item.name}
-              src={item.src}
-              url={item.url}
-            />
-          ))}
-        </div>
+        </p> */}
       </div>
       <div
         id='projects'
@@ -69,6 +50,24 @@ export default function Home() {
         </div>
       </div>
       <div
+        id='tools'
+        className='px-[15px] sm:px-[30px] lg:px-0 pt-[50px] lg:max-w-[920px] lg:mx-auto'
+      >
+        <h1 className='text-[1.8rem] text-center sm:text-[2.25rem] mb-[25px] text-[#111827] font-extrabold md:text-left'>
+          Tools I use
+        </h1>
+        <div className='grid gap-5 grid-cols-[300px] sm:grid-cols-[350px] md:grid-cols-[400px] justify-center lg:grid-cols-2'>
+          {toolsData.map((item, index) => (
+            <ToolCard
+              key={index}
+              name={item.name}
+              src={item.src}
+              url={item.url}
+            />
+          ))}
+        </div>
+      </div>
+      <div
         id='contactme'
         className='px-[15px] sm:px-[30px] lg:px-0 py-[100px] lg:max-w-[920px] lg:mx-auto'
       >
@@ -76,9 +75,9 @@ export default function Home() {
           Contact me
         </h1>
         <p className='text-[#4b5563] mb-[25px] text-[1.125rem] leading-[1.75rem]'>
-          I’m not currently looking for any new opportunities, however my inbox
+          {`I’m currently looking for any new opportunities, my inbox
           is always open. Whether you have a question or just want to say hi,
-          I’ll try my best to get back to you!
+          I’ll try my best to get back to you!`}
         </p>
         <a
           href={'mailTo:mokhtareddarhri@gmail.com'}
