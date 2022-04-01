@@ -19,4 +19,9 @@ export const projectsData = [
     url: 'https://exm-blog.vercel.app',
     src: '/images/exm-blog.png',
   },
+  {
+    name: 'Movie picker with latest movies',
+    url: 'https://exm-moviepicker.vercel.app',
+    src: '/images/exm-moviepicker.png',
+  },
 ];
